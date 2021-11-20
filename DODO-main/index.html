@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/modules/photo-sphere-viewer.css" />
+		<link rel="stylesheet" href="css/modules/markers.css" />
+		<link rel="icon" href="assets/favicon.png"/>
+		<link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet" /> 
+		<meta charset="utf-8" />
+		<!--<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>-->
+		<title>Gymnázium Jana Keplera - Den otevřených dveří</title>
+		<script src="loader.js"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-833LLLNBGR"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-833LLLNBGR');
+		</script>
+	</head>
+	<body>
+		<div id="view"></div>
+		<div id="minimap"><img id="minimap-bg" src="assets/map/3.png"><img id="minimap-player" src="assets/map/player.png"><div id="minimap-markers"></div>
+			<div class="psv-tooltip psv-tooltip--top-center psv-tooltip--visible" id="minimap-tooltip" style="visibility: hidden; box-shadow: 0 3px 0 rgba(90, 90, 90, 0.7); -webkit-box-shadow: 0 3px 0 rgba(90, 90, 90, 0.7); z-index: 666; width: 150px;pointer-events:none;text-align: center;">
+				<div class="psv-tooltip-content" id="minimap-tooltip-content"></div>
+			</div>
+		</div>
+		<div id="overlay">
+			<div class="overlay-body" id="intro" style="display: none;">
+				<h2>Vážení a ctění uchazeči, vítejte na Dni Otevřených Dveří Online!</h2>
+
+				<p>Nejprv však otázku Vám položíme. Které jest studium, jež Vaší pozornost získalo si?</p>
+
+				<p class="buttons"><a class="button" id="fouryear" href="#">Čtyřleté</a>
+				<a class="button" id="eightyear" href="#">Osmileté</a></p>
+
+				<p>Zvolivše odpověď započnete prohlídku.</p>
+
+				<p><em>Poznámka: Jedná se o virtuální prohlídku s panoramaty.</em></p>
+			</div>
+			<div class="overlay-body" id="introvideo" style="display: none;">
+				<h3>DOD – uvítací proslov Ivany Landsingerové pověřené řízením školy</h3>
+				<iframe id="introframe" src="https://www.youtube.com/embed/SEOM-QJ6TuM" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+				<p class="buttons"><a class="button" id="introcontinue" href="#">Pokračovat</a></p>
+			</div>
+			<div class="overlay-body" id="loader" style="display: none;">
+				<h2>Načítání...</h2>
+				<div class="progress">
+				  <span id="loader-bar" style="width: 0%"></span>
+				</div>
+				<p> Prosíme o strpení. Načítání může chvíli zabrat. </p>
+				<p><h3> Náhodná zajímavost o škole:</h3> <i><span id="fact"></span></i></p>
+			</div>
+			<div class="overlay-body" id="timeout" style="display: none;">
+				<h1 style="text-align: center;">Den Otevřených Dveří Online GJK</h1>
+				<br>
+				<h2 style="text-align: center;"> Začínáme za:</h2>
+				<h1 style="text-align: center;"><i><span id="timeout-counter"></span></i><h1>
+			</div>
+		</div>
+		<div id="popup" class="popup">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,267 @@
+html {
+	overflow: hidden;
+}
+
+html, body {
+	margin: 0;
+	position: relative;
+}
+
+body {
+	background-color: black;
+	background-image: url("../assets/gjk-wide.jpg");
+	background-size: auto 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+em {
+	color: rgb(179, 179, 179);
+}
+
+a {
+	color: rgb(250, 250, 215);
+}
+
+#view {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#overlay {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(10, 10, 10, 0.7);
+	color: rgb(250, 250, 215);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 666;
+	font-family: "Spectral", serif;
+
+	background-size: auto 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#cross {
+	position: sticky;
+	float: right;
+	top: 0;
+	width: 30px;
+	height: 30px;
+}
+
+.overlay-body {
+	position: relative;
+
+	width: 60vw;
+	min-height: 35vh;
+	max-height: 90vh;
+	margin: 50px auto;
+	padding: 20px;
+	background: rgba(5, 5, 40, 0.7);
+
+	overflow: auto;
+}
+
+.overlay-body video, .overlay-body iframe, .overlay-body embed {
+	margin-top: 15px;
+	width: 100%;
+	height: 56.25%;
+}
+
+.overlay-body img {
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 40vh;
+	display: block;
+}
+
+.help {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+	align-items: stretch;
+	justify-content: center;
+
+	width: 100%;
+
+	margin-top: 3em;
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+.button {
+	padding: 1em 2em;
+	margin-left: 5px;
+	border: .2em solid;
+	color: white;
+
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+
+	-webkit-transition: color 0.25s, background 0.25s;
+	transition: color 0.25s, background 0.25s;
+	transition-timing-function: ease-in-out;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.button.answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex: 1;
+	font-size: 0.8em;
+}
+
+
+.button:hover, .button:active {
+	color: rgba(5, 5, 40, 0.7);
+	background: white;
+}
+
+.button.disabled {
+	color: #BEBEBE;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+.button.disabled:hover {
+	color: #BEBEBE;
+	background: none;
+}
+
+.points {
+	margin-left: 50px;
+}
+
+.progress {
+	background: transparent;
+	height: 20px;
+	position: relative;
+	outline: .1em solid;
+	padding: 10px;
+}
+
+.progress > span {
+	display: block;
+	height: 100%;
+	outline: .1em solid;
+
+	background: rgb(250, 250, 215); /*rgb(5, 100, 140);*/
+
+	position: relative;
+	overflow: hidden;
+}
+
+.popup {
+	display: none;
+	position: absolute;
+	top: 66px;
+	left: 50%;
+	width: 400px;
+	text-align: center;
+	transform: translate(-50%, 0);
+	padding: 25px 50px 5px 50px;
+	z-index: 667;
+
+	background: black;
+	color: rgb(250, 250, 215);
+
+	border: 1px solid rgb(250, 250, 215);
+	font-family: "Spectral", serif;
+
+
+	/*color: black;
+	background: rgba(255, 255, 255, 0.9);*/
+}
+
+.tutorialdiv p {
+	margin: 0;
+	margin-bottom: 3px;
+	font-size: 0.9em;
+}
+
+.tutorialdiv + .buttons {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+#minimap {
+	position: absolute;
+	right: 1vw;
+	top: 1vw;
+	height: 20vw;
+	width: 20vw;
+	width: min(20vw, 50vh);
+	height: min(20vw, 50vh);
+	visibility: hidden;
+	background: rgba(61, 61, 61, 0.5);
+	z-index: 665;
+	border: 1px solid rgba(255, 255, 255, 0.7)
+}
+
+#minimap-bg {
+	height: 100%;
+	width: 100%;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+#minimap-player {
+	position: relative;
+	width: 8%;
+	top: -92%;
+	right: -46%;
+	z-index: 665;
+	pointer-events:none;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+#minimap-markers {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0%;
+}
+
+#minimap-marker {
+	position: absolute;
+	width: 5%;
+	cursor: pointer;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}

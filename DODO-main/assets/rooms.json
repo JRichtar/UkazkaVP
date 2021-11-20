@@ -1,0 +1,308 @@
+{
+ "comms": {
+  "bg": "assets/gjk-wide.jpg",
+  "tooltip": "Zde můžete komunikovat se studenty GJK.",
+  "unlocks": 0,
+  "url": "assets/rooms/comms.html"
+ },
+ "jidelna": {
+    "bg": "assets/photos/jidelna.jpg",
+    "tooltip": "Jídelna",
+    "unlocks": 0,
+    "url": "assets/rooms/jidelna.html"
+},
+"kurzygo": {
+    "bg": "assets/photos/kurzy-go.jpg",
+    "tooltip": "Kurzy GO",
+    "unlocks": 0,
+    "url": "assets/rooms/kurzygo.html"
+},
+"dofe": {
+    "bg": "assets/photos/dofe.jpg",
+    "tooltip": "DofE",
+    "unlocks": 0,
+    "url": "assets/rooms/dofe.html"
+},
+ "A1": {
+  "bg": "assets/photos/a1.jpg",
+  "tooltip": "A1 &mdash; Je pot\u0159eba 35 bod\u016f pro vstup.",
+  "unlocks": 35,
+  "url": "assets/rooms/a1.html"
+ },
+ "A2": {
+  "bg": "assets/photos/a2.jpg",
+  "tooltip": "A2 &mdash; Je pot\u0159eba 10 bod\u016f pro vstup.",
+  "unlocks": 10,
+  "url": "assets/rooms/a2.html"
+ },
+ "Aula": {
+  "bg": "assets/photos/aula.jpg",
+  "tooltip": "Aula &mdash; Zde p\u0159ich\u00e1zej\u00ed ve\u0161ker\u00e1 studentsk\u00e1 dramata k \u017eivotu. &mdash; Je pot\u0159eba 10 bod\u016f pro vstup.",
+  "unlocks": 10,
+  "url": "assets/rooms/aula.html"
+ },
+ "H1.1": {
+  "bg": "assets/photos/h1-1.jpg",
+  "tooltip": "H1.1 &mdash; Je pot\u0159eba 5 bod\u016f pro vstup.",
+  "unlocks": 5,
+  "url": "assets/rooms/h1-1.html"
+ },
+ "H1.2": {
+  "bg": "assets/photos/h1-2.jpg",
+  "tooltip": "H1.2 &mdash; Je pot\u0159eba 26 bod\u016f pro vstup.",
+  "unlocks": 26,
+  "url": "assets/rooms/h1-2.html"
+ },
+ "H1.3": {
+  "bg": "assets/photos/h1-3.jpg",
+  "tooltip": "H1.3 &mdash; Je pot\u0159eba 60 bod\u016f pro vstup.",
+  "unlocks": 60,
+  "url": "assets/rooms/h1-3.html"
+ },
+ "H2.1": {
+  "bg": "assets/photos/h2-1.jpg",
+  "tooltip": "H2.1",
+  "unlocks": 0,
+  "url": "assets/rooms/h2-1.html"
+ },
+ "H2.2": {
+  "bg": "assets/photos/h2-2.jpg",
+  "tooltip": "H2.2 &mdash; Je pot\u0159eba 20 bod\u016f pro vstup.",
+  "unlocks": 20,
+  "url": "assets/rooms/h2-2.html"
+ },
+ "H2.3": {
+  "bg": "assets/photos/h2-3.jpg",
+  "tooltip": "H2.3 &mdash; Je pot\u0159eba 5 bod\u016f pro vstup.",
+  "unlocks": 5,
+  "url": "assets/rooms/h2-3.html"
+ },
+ "H3.1": {
+  "bg": "assets/photos/h3-1.jpg",
+  "tooltip": "H3.1 &mdash; Je pot\u0159eba 10 bod\u016f pro vstup.",
+  "unlocks": 10,
+  "url": "assets/rooms/h3-1.html"
+ },
+ "H3.2": {
+  "bg": "assets/photos/h3-2.jpg",
+  "tooltip": "H3.2",
+  "unlocks": 0,
+  "url": "assets/rooms/h3-2.html"
+ },
+ "H3.3": {
+  "bg": "assets/photos/h3-3.jpg",
+  "tooltip": "H3.3 &mdash; Je pot\u0159eba 40 bod\u016f pro vstup.",
+  "unlocks": 40,
+  "url": "assets/rooms/h3-3.html"
+ },
+ "Hala": {
+  "bg": "assets/photos/hala.jpg",
+  "tooltip": "Hala &mdash; Za trefu bodovac\u00ed tabule, \u010dek\u00e1 t\u011b posilov\u00e1n\u00ed nemil\u00e9. &mdash; Je pot\u0159eba 15 bod\u016f pro vstup.",
+  "unlocks": 15,
+  "url": "assets/rooms/hala.html"
+ },
+ "Kabinet \u010cJ": {
+  "bg": "assets/photos/kabCJ.jpg",
+  "tooltip": "Kabinet \u010cJ &mdash; Je pot\u0159eba 10 bod\u016f pro vstup.",
+  "unlocks": 10,
+  "url": "assets/rooms/kabinet-cj.html"
+ },
+ "Knihovna": {
+  "bg": "assets/photos/terasa_knih.jpg",
+  "tooltip": "Knihovna &mdash; 3v1 (kniha - k\u00e1va -?) &mdash; Je pot\u0159eba 15 bod\u016f pro vstup.",
+  "unlocks": 15,
+  "url": "assets/rooms/knihovna.html"
+ },
+ "Kuchy\u0148ka": {
+  "bg": "assets/photos/kuchynka.jpg",
+  "tooltip": "Kuchy\u0148ka",
+  "unlocks": 0,
+  "url": "assets/rooms/kuchynka.html"
+ },
+ "LBi": {
+  "bg": "assets/photos/lbi.jpg",
+  "tooltip": "LBi &mdash; V\u00fdzkum\u00fd \u00fastav rostlin, \u017eivo\u010dich\u016f ... a lid\u00ed &mdash; Je pot\u0159eba 12 bod\u016f pro vstup.",
+  "unlocks": 12,
+  "url": "assets/rooms/lbi.html"
+ },
+ "LChe": {
+  "bg": "assets/photos/lche.jpg",
+  "tooltip": "LChe &mdash; \u2026 n\u011bco tady sem tam \u201clehce\u201d bouchlo\u2026  &mdash; Je pot\u0159eba 50 bod\u016f pro vstup.",
+  "unlocks": 50,
+  "url": "assets/rooms/lche.html"
+ },
+ "LFy": {
+  "bg": "assets/photos/lfy.jpg",
+  "tooltip": "LFy &mdash; 11. Nenam\u011b\u0159\u00ed\u0161; 12. Nenav\u00e1\u017e\u00ed\u0161; 13. Nezaprotokoluje\u0161 &mdash; Je pot\u0159eba 40 bod\u016f pro vstup.",
+  "unlocks": 40,
+  "url": "assets/rooms/lfy.html"
+ },
+ "N1": {
+  "bg": "assets/photos/n1.jpg",
+  "tooltip": "N1 &mdash; Je pot\u0159eba 9 bod\u016f pro vstup.",
+  "unlocks": 9,
+  "url": "assets/rooms/n1.html"
+ },
+ "N2": {
+  "bg": "assets/photos/n2.jpg",
+  "tooltip": "N2",
+  "unlocks": 0,
+  "url": "assets/rooms/n2.html"
+ },
+ "P1.1": {
+  "bg": "assets/photos/p1-1.jpg",
+  "tooltip": "P1.1",
+  "unlocks": 0,
+  "url": "assets/rooms/p1-1.html"
+ },
+ "P1.2": {
+  "bg": "assets/photos/p1-2.jpg",
+  "tooltip": "P1.2 &mdash; Je pot\u0159eba 40 bod\u016f pro vstup.",
+  "unlocks": 40,
+  "url": "assets/rooms/p1-2.html"
+ },
+ "P1.3": {
+  "bg": "assets/photos/p1-3.jpg",
+  "tooltip": "P1.3 &mdash; Je pot\u0159eba 50 bod\u016f pro vstup.",
+  "unlocks": 50,
+  "url": "assets/rooms/p1-3.html"
+ },
+ "P1.4": {
+  "bg": "assets/photos/p1-4.jpg",
+  "tooltip": "P1.4",
+  "unlocks": 0,
+  "url": "assets/rooms/p1-4.html"
+ },
+ "P2.1": {
+  "bg": "assets/photos/p2-1.jpg",
+  "tooltip": "P2.1 &mdash; Je pot\u0159eba 30 bod\u016f pro vstup.",
+  "unlocks": 30,
+  "url": "assets/rooms/p2-1.html"
+ },
+ "P2.2": {
+  "bg": "assets/photos/p2-2.jpg",
+  "tooltip": "P2.2 &mdash; Je pot\u0159eba 15 bod\u016f pro vstup.",
+  "unlocks": 15,
+  "url": "assets/rooms/p2-2.html"
+ },
+ "P2.3": {
+  "bg": "assets/photos/p2-3.jpg",
+  "tooltip": "P2.3 &mdash; Je pot\u0159eba 50 bod\u016f pro vstup.",
+  "unlocks": 50,
+  "url": "assets/rooms/p2-3.html"
+ },
+ "P3.1": {
+  "bg": "assets/photos/p3-1.jpg",
+  "tooltip": "P3.1 &mdash; Je pot\u0159eba 70 bod\u016f pro vstup.",
+  "unlocks": 70,
+  "url": "assets/rooms/p3-1.html"
+ },
+ "P3.2": {
+  "bg": "assets/photos/p3-2.jpg",
+  "tooltip": "P3.2",
+  "unlocks": 0,
+  "url": "assets/rooms/p3-2.html"
+ },
+ "P3.3": {
+  "bg": "assets/photos/p3-3.jpg",
+  "tooltip": "P3.3 &mdash; Je pot\u0159eba 40 bod\u016f pro vstup.",
+  "unlocks": 40,
+  "url": "assets/rooms/p3-3.html"
+ },
+ "P3.4": {
+  "bg": "assets/photos/p3-4.jpg",
+  "tooltip": "P3.4 &mdash; Je pot\u0159eba 50 bod\u016f pro vstup.",
+  "unlocks": 50,
+  "url": "assets/rooms/p3-4.html"
+ },
+ "PoM": {
+  "bg": "assets/photos/pom.jpg",
+  "tooltip": "PoM &mdash; Je pot\u0159eba 20 bod\u016f pro vstup.",
+  "unlocks": 20,
+  "url": "assets/rooms/pom.html"
+ },
+ "PoV": {
+  "bg": "assets/photos/pov.jpg",
+  "tooltip": "PoV &mdash; \u00da\u0159edn\u00edmi jazyky jsou zde ty programovac\u00ed. &mdash; Je pot\u0159eba 15 bod\u016f pro vstup.",
+  "unlocks": 15,
+  "url": "assets/rooms/pov.html"
+ },
+ "Posluch\u00e1rna chemie": {
+  "bg": "assets/photos/pch.jpg",
+  "tooltip": "Posluch\u00e1rna chemie &mdash; VSTUPUJTE BEZ OBAV. Povrch stol\u016f je ze speci\u00e1ln\u00edho ohnivzdorn\u00e9ho a kyselinovzdorn\u00e9ho materi\u00e1lu. &mdash; Je pot\u0159eba 10 bod\u016f pro vstup.",
+  "unlocks": 10,
+  "url": "assets/rooms/poslucharna-chemie.html"
+ },
+ "SBO": {
+  "bg": "assets/photos/sborovna.jpg",
+  "tooltip": "SBO",
+  "unlocks": 0,
+  "url": "assets/rooms/sbo.html"
+ },
+ "Sekretari\u00e1t": {
+  "bg": "assets/photos/sekretariat.jpg",
+  "tooltip": "Sekretari\u00e1t &mdash; Je pot\u0159eba 90 bod\u016f pro vstup.",
+  "unlocks": 90,
+  "url": "assets/rooms/sekretariat.html"
+ },
+ "St\u011bna": {
+  "bg": "assets/photos/stena.jpg",
+  "tooltip": "St\u011bna &mdash; <del>Proti</del> Do p\u0159ita\u017elivosti zemsk\u00e9 <del>do</del> z v\u00fd\u0161ky vol\u00edm p\u00e1d. <del>(Franti\u0161ek Halas)</del> (Tom\u00e1\u0161 Kupka) &mdash; Je pot\u0159eba 9 bod\u016f pro vstup.",
+  "unlocks": 9,
+  "url": "assets/rooms/stena.html"
+ },
+ "Terasa (v\u010del\u00edn)": {
+  "bg": "assets/photos/terasa_vcely.jpg",
+  "tooltip": "Terasa (v\u010del\u00edn) &mdash; Je pot\u0159eba 30 bod\u016f pro vstup.",
+  "unlocks": 30,
+  "url": "assets/rooms/terasa-vcelin.html"
+ },
+ "T\u011blocvi\u010dna Parl\u00e9\u0159ova": {
+  "bg": "assets/photos/tpa.jpg",
+  "tooltip": "T\u011blocvi\u010dna Parl\u00e9\u0159ova &mdash; Je pot\u0159eba 10 bod\u016f pro vstup.",
+  "unlocks": 10,
+  "url": "assets/rooms/telocvicna-parlerova.html"
+ },
+ "USV": {
+  "bg": "assets/photos/usv.jpg",
+  "tooltip": "USV &mdash; Muzeum v\u00fdv\u011bsn\u00fdch map, atlas\u016f i studentsk\u00fdch projekt\u016f",
+  "unlocks": 0,
+  "url": "assets/rooms/usv.html"
+ },
+ "VV+HV": {
+  "bg": "assets/photos/uvv.jpg",
+  "tooltip": "VV+HV &mdash; Zde se um\u011bn\u00ed dot\u00fdk\u00e1 nebe. &mdash; Je pot\u0159eba 3 bod\u016f pro vstup.",
+  "unlocks": 3,
+  "url": "assets/rooms/vv-hv.html"
+ },
+ "Vchod Hl\u00e1dkov": {
+  "bg": "assets/photos/vchodH.jpg",
+  "tooltip": "Vchod Hl\u00e1dkov",
+  "unlocks": 0,
+  "url": "assets/rooms/vchod-hladkov.html"
+ },
+ "V\u00e1hovna": {
+  "bg": "assets/photos/vahovna.jpg",
+  "tooltip": "V\u00e1hovna &mdash; Tajemn\u00e1 m\u00edstost, do n\u00ed\u017e se studenti pod\u00edvaj\u00ed jen p\u00e1rkr\u00e1t za \u017eivot. &mdash; Je pot\u0159eba 3 bod\u016f pro vstup.",
+  "unlocks": 3,
+  "url": "assets/rooms/vahovna.html"
+ },
+ "m\u00edstnosti bez videa": {
+  "bg": "assets/photos/mistnosti-bez-videa.jpg",
+  "tooltip": "m\u00edstnosti bez videa",
+  "unlocks": 0,
+  "url": "assets/rooms/mistnosti-bez-videa.html"
+ },
+ "z\u00e1stupci": {
+  "bg": "assets/photos/zastupci.jpg",
+  "tooltip": "z\u00e1stupci",
+  "unlocks": 0,
+  "url": "assets/rooms/zastupci.html"
+ },
+ "\u0159editelna": {
+  "bg": "assets/photos/reditelna.jpg",
+  "tooltip": "\u0159editelna",
+  "unlocks": 0,
+  "url": "assets/rooms/reditelna.html"
+ }
+}

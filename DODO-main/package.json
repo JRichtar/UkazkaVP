@@ -1,0 +1,22 @@
+{
+  "name": "dodo",
+  "version": "0.1.0",
+  "description": "Den otevřených dveří online",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesves/DODO.git"
+  },
+  "author": "Lukáš Veškrna, Petr Šícho, Vojtěch Votruba",
+  "bugs": {
+    "url": "https://github.com/lesves/DODO/issues"
+  },
+  "homepage": "https://github.com/lesves/DODO#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "photo-sphere-viewer": "^4.0.7",
+    "tsify": "^5.0.2",
+    "typescript": "^4.0.3",
+    "uglify-js": "^3.11.5",
+    "uuid4": "^2.0.2"
+  }
+}
